@@ -1,0 +1,28 @@
+* {
+  margin: 0 auto;
+}
+.page {
+  display: flex;
+  background-color: #a3a8a8;
+  align-items: center;
+  justify-content: center;
+  height: 40em;
+}
+.button {
+  padding: 15px;
+  border: solid 1px #000000;
+  border-radius: 5px;
+  background-color: #000000;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  transition: 1s;
+}
+button:hover {
+  background-color: #b7c2c2;
+  border: solid 1px #b7c2c2;
+  color: black;
+  cursor: pointer;
+  transition: 1s;
+}
